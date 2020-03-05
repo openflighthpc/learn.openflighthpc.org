@@ -37,4 +37,5 @@ Table of Contents
 
    workflows/openfoam
    workflows/jupyter_notebook
+   workflows/bowtie
 
