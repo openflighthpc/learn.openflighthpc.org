@@ -36,4 +36,5 @@ Table of Contents
    :name: workflows
 
    workflows/openfoam
+   workflows/jupyter_notebook
 
