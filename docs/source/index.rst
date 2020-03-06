@@ -35,7 +35,8 @@ Table of Contents
    :caption: Workflows
    :name: workflows
 
-   workflows/openfoam
-   workflows/jupyter_notebook
    workflows/bowtie
+   workflows/hadoop
+   workflows/jupyter_notebook
+   workflows/openfoam
 
