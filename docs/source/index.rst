@@ -39,4 +39,5 @@ Table of Contents
    workflows/hadoop
    workflows/jupyter_notebook
    workflows/openfoam
+   workflows/tensorflow
 
