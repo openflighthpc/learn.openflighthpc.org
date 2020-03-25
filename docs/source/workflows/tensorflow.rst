@@ -29,7 +29,7 @@ Running the Job
 
 - Download the example job models::
 
-    <singularity> [flight@gateway1 (scooby) ~]$ git clone https://github.com/tensorflow/models.git
+    <singularity> [flight@gateway1 (scooby) ~]$ git clone -b v1.13.0 https://github.com/tensorflow/models.git
 
 - Launch the tensorflow docker container with singularity to run the job::
 
@@ -68,7 +68,7 @@ Running the Job
 
 - Download the example job models::
 
-    <conda> [flight@gateway1 (scooby) ~]$ git clone https://github.com/tensorflow/models.git
+    <conda> [flight@gateway1 (scooby) ~]$ git clone -b v1.13.0 https://github.com/tensorflow/models.git
 
 - Execute the job with python::
 
