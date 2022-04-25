@@ -28,6 +28,11 @@ Installing Jupyter with Conda
 
     <conda> [flight@gateway1 (scooby) ~]$ conda install jupyter
 
+- Install Notebook dependencies::
+
+    <conda> [flight@gateway1 (scooby) ~]$ conda install matplotlib
+    <conda> [flight@gateway1 (scooby) ~]$ conda install folium -c conda-forge
+
 Launch a Jupyter Notebook
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -35,11 +40,11 @@ Launch a Jupyter Notebook
 
 - Download the example notebook::
 
-    <conda> [flight@gateway1 (scooby) ~]$ curl -L http://tiny.cc/jupyterexample > ipython.ipynb
+    <conda> [flight@gateway1 (scooby) ~]$ curl -L https://jupyterbook.org/en/stable/_downloads/12e9fb0f1c062494259ce630607cfc87/notebooks.ipynb > notebooks.ipynb
 
 - Launch the notebook::
 
-    <conda> [flight@gateway1 (scooby) ~]$ jupyter notebook ipython.ipynb
+    <conda> [flight@gateway1 (scooby) ~]$ jupyter notebook notebooks.ipynb
 
 - A web browser will launch with the notebook displayed
 
