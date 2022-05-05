@@ -53,7 +53,7 @@ Running a Simple OpenFOAM Job
 
 - Create a job script in the current working directory::
 
-    <gridware> [flight@gateway1 (scooby) ~]$ cat << EOF > myfoamjob.sh
+    <gridware> [flight@gateway1 (scooby) ~]$ cat << 'EOF' > myfoamjob.sh
     #!/bin/bash
     #SBATCH -N 1
 
